@@ -73,5 +73,7 @@
 #endif
 
 /* Factory test keys */
-#define FN_KEY_1 MO(4)
+#ifndef FN_KEY_1
+#    define FN_KEY_1 MO(4)
+#endif
 
